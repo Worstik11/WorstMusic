@@ -70,8 +70,8 @@ module.exports = {
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://github.com/Worstik11?tab=repositories')
+      .setLabel('Legenda')
+      .setURL('https://youtube.com/watch?v=RaJSK4P2VD4')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
