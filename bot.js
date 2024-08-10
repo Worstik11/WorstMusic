@@ -6,9 +6,9 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: "lavalink.clxud.dev",
+        host: "lavalink.jompo.cloud",
         port: 2333, 
-        password: "youshallnotpass", 
+        password: "jompo", 
          secure: false
       },
 ];
