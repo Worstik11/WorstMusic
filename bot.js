@@ -6,10 +6,10 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: "lavalink.jompo.cloud",
+        host: "v4.lavalink.rocks",
         port: 2333, 
-        password: "jompo", 
-         secure: false
+        password: "horizxon.tech", 
+         secure: true
       },
 ];
 
