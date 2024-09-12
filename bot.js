@@ -45,6 +45,7 @@ function UpdatePresence() {
 
 client.on("ready", () => {
     client.riffy.init(client.user.id);
+    UpdatePresence();
 });
 
 
