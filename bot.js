@@ -23,29 +23,8 @@ client.riffy = new Riffy(client, nodes, {
     restVersion: "v4" 
 });
 
-function UpdatePresence() {
-    const presence = {
-        state: "Playing Solo",
-        details: "Competitive",
-        startTimestamp: 1507665886,
-        endTimestamp: 1507665886,
-        largeImageKey: "9283e575accfec9b154698b9728ca20648b5a008ffe06b3cb25252b978f5d7f3_1",
-        largeImageText: "Numbani",
-        smallImageText: "Rogue - Level 100",
-        partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
-        partySize: 1,
-        partyMax: 5,
-        joinSecret: "MTI4NzM0OjFpMmhuZToxMjMxMjM=",
-    };
-    client.user.setPresence({
-        status: 'online',
-        activity: presence
-    });
-}
-
 client.on("ready", () => {
     client.riffy.init(client.user.id);
-    UpdatePresence();
 });
 
 
