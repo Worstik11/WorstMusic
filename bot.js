@@ -6,9 +6,9 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: "lavalink.clxud.dev",
-        port: 2333, 
-        password: "youshallnotpass", 
+        host: "lava-v4.beban.tech",
+        port: 80, 
+        password: "bytebee_", 
          secure: false
       },
 ];
