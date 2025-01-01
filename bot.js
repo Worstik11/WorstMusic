@@ -6,9 +6,9 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: " lava-v4.beban.tech",
+        host: "lavalinkv4-id.serenetia.com",
         port: 80, 
-        password: "bytebee_", 
+        password: "https://dsc.gg/ajidevserver", 
          secure: false
       },
 ];
