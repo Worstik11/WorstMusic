@@ -7,7 +7,6 @@ const { prefix } = require('./config.json');
 const nodes = [
     {
       {
-  "identifier": "Catfein DE",
   "password": "catfein",
   "host": "lavalink.alfari.id",
   "port": 443,
