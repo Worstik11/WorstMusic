@@ -6,10 +6,12 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: "lavalink.jirayu.net",
-        port:13592, 
-        password: "youshallnotpass", 
-         secure: false
+      {
+  "identifier": "Catfein DE",
+  "password": "catfein",
+  "host": "lavalink.alfari.id",
+  "port": 443,
+  "secure": true
       },
 ];
 
