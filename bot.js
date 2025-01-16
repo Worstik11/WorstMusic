@@ -7,10 +7,10 @@ const { prefix } = require('./config.json');
 const nodes = [
     {
       {
-   host: "lava-v4.ajieblogs.eu.org",
-   port: 443, 
-   password: "https://dsc.gg/ajidevserver", 
-   secure: true
+          host: "lavalink.jirayu.net",
+        port:13592, 
+        password: "youshallnotpass", 
+         secure: false
       },
 ];
 
