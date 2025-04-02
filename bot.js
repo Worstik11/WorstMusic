@@ -6,9 +6,9 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
       {
-       host: "lavalink.nextgencoders.xyz",
+       host: "lava-v4.ajieblogs.eu.org",
         port: 443, 
-        password: "nextgencoders", 
+        password: "https://dsc.gg/ajidevserver", 
          secure: true 
       },
 ];
