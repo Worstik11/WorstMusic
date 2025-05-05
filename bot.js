@@ -23,6 +23,7 @@ client.riffy = new Riffy(client, nodes, {
     restVersion: "v4" 
 });
 
+
 client.on("ready", () => {
     client.riffy.init(client.user.id);
 });
@@ -41,6 +42,7 @@ client.on("messageCreate", async (message) => {
             textChannel: message.channel.id,
             deaf: true 
         });
+  
   
         const resolve = await client.riffy.resolve({ query: query, requester: message.author });
         const { loadType, tracks, playlistInfo } = resolve;
