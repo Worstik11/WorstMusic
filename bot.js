@@ -44,7 +44,7 @@ client.on("messageCreate", async (message) => {
         });
   
   
-        const resolve = await client.riffy.resolve({ query: query, requester: message.author });
+              const resolve = await client.riffy.resolve({ query: query, requester: message.author });
         const { loadType, tracks, playlistInfo } = resolve;
   
         if (loadType === 'playlist') {
@@ -52,13 +52,14 @@ client.on("messageCreate", async (message) => {
                 track.info.requester = message.author;
                 player.queue.add(track);
             }
+
             const embed = new EmbedBuilder()
             .setAuthor({
                 name: 'Added To Queue',
                 iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157218651179597884/1213-verified.gif?ex=6517cf5a&is=65167dda&hm=cf7bc8fb4414cb412587ade0af285b77569d2568214d6baab8702ddeb6c38ad5&', 
                 url: 'https://discord.gg/xQF9f9yUEM'
             })
-                .setDescription(`**Playlist Name : **${playlistInfo.name} \n**Tracks : **${tracks.length}`)
+              .setDescription(`**Playlist Name : **${playlistInfo.name} \n**Tracks : **${tracks.length}`)
                 .setColor('#14bdff')
                 .setFooter({ text: 'Use queue command for more Information' });
             message.reply({ embeds: [embed] });
@@ -68,6 +69,7 @@ client.on("messageCreate", async (message) => {
             const track = tracks.shift();
             track.info.requester = message.author;
             player.queue.add(track);
+
 
             const embed = new EmbedBuilder()
             .setAuthor({
