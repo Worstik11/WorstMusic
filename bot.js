@@ -7,8 +7,8 @@ const { prefix } = require('./config.json');
 const nodes = [
       {
        host: "5.39.63.207",
-        port: 7712, 
-        password: "WorstikPass", 
+        port: 3742, 
+        password: "worstpass", 
          secure: false 
       },
 ];
