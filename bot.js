@@ -9,7 +9,7 @@ const nodes = [
         host: "lavahatry4.techbyte.host",
         port: 3000, 
         password: "NAIGLAVA-dash.techbyte.host", 
-         secure: false
+         secure: false,
       },
 ];
 
