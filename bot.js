@@ -6,10 +6,10 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
       {
-    host: "lavalink.jirayu.net",
-    port: 13592, 
-    password: "youshallnotpass",
-    "secure": false,
+    "host": "lava-v4.ajieblogs.eu.org",
+    "port": 443,
+    "password": "https://dsc.gg/ajidevserver",
+    "secure": true
       },
 ];
 
@@ -317,6 +317,7 @@ client.riffy.on("queueEnd", async (player) => {
 client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
+
 
 
 
