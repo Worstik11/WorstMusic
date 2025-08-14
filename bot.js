@@ -6,9 +6,9 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
       {
-     "host": "lavahatry4.techbyte.host",
-    "port": 3000,
-    "password": "NAIGLAVA-dash.techbyte.host",
+     "host": "lava-v4.ajieblogs.eu.org",
+    "port": 80,
+    "password": "https://dsc.gg/ajidevserver",
     "secure": false,
       },
 ];
@@ -317,6 +317,7 @@ client.riffy.on("queueEnd", async (player) => {
 client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
+
 
 
 
