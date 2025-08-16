@@ -9,7 +9,7 @@ const nodes = [
      "host": "lava-v4.ajieblogs.eu.org",
     "port": 443,
     "password": "https://dsc.gg/ajidevserver",
-    "secure": true,
+    "secure": true
       },
 ];
 
@@ -317,6 +317,7 @@ client.riffy.on("queueEnd", async (player) => {
 client.on("raw", (d) => {
     client.riffy.updateVoiceState(d);
 });
+
 
 
 
